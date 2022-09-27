@@ -1,0 +1,51 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+#---
+toc:
+  properties:
+    subcollection: privileged-access-gateway
+    allowlist-id: 4dc92300-73cd-11ec-8e70-df67665eaed2
+    category: security
+    audience: service
+    href: /docs/allowlist/privileged-access-gateway
+    console-page: /pag
+    product-page: /pag
+    path: privileged-access-gateway
+    label: Privileged Access Gateway documentation
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - topicgroup:
+          label: Getting started with Privileged Access Gateway (PAG)
+          topics:
+          - pag-overview.md
+          - pag-features.md
+          - pag-iam-roles.md
+          - pag-pre-reqs.md
+      - release-notes.md
+      - topicgroup:
+          label: How to
+          topics:
+          - pag-admin-prepare-VSI.md
+          - pag-provision-UI.md
+          - pag-install-pag-CLI.md
+          - pag-using-pag-ssh.md
+          - pag-login-kubernetes-CLI.md
+      - topicgroup:
+          label: Security planning
+          topics:
+          - pag-security-guid.md
+          - pag-security-guid-break.md
+      - topicgroup:
+          label: Session recording and auditing
+          topics:
+          - pag-list-terminate-sessions.md
+          - pag-session-recording.md
+      - topicgroup:
+           label: Help
+           topics:
+           - pag-faq.md
+
