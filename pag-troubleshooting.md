@@ -15,7 +15,7 @@ subcollection: privileged-access-gateway
 # Troubleshooting
 {: #pag-troubleshooting}
 
-General problems with using {{site.data.keyword.pag_full}} (PAG)might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
+General problems with using {{site.data.keyword.pag_full}} (PAG) might include viewing your order status or accessing the user interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
 
 ## Unable to view order details
@@ -26,7 +26,7 @@ When you access the {{site.data.keyword.cloud_notm}} console, you cannot view or
 You can see a list of services in your {{site.data.keyword.cloud_notm}} resource list, but you do not see a {{site.data.keyword.pag_short}} entry.
 {: pag-tsSymptoms}
 
-You do not have the correct authorization to view or track {{{site.data.keyword.pag_short}} orders.
+You do not have the correct authorization to view or track {{site.data.keyword.pag_short}} orders.
 {: pag-tsCauses}
 
 Verify with your administrator that you are assigned the correct role in the applicable resource group or service instance. For more information about roles, see [PAG roles](/docs/privileged-access-gateway?topic=privileged-access-gateway-pag-roles).
