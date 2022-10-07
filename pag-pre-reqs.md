@@ -26,7 +26,7 @@ Before provisioning your {{site.data.keyword.pag_full}} (PAG) instance, you need
 - **VPC** - You need to create a VPC to contain the PAG instance.
 - **VPC Subnet** - Required for the gateway host name to be selected. Subnets are created by default with a VPC, but you can create additional subnets as well. You will be asked during PAG provisioning to provide the CRN of the subnet that you want the PAG endpoint to reside.
 
-For this release, you must have a public gateway accessible from the subnet that you select for PAG. This is needed for PAG to be able access the IBM IAM service from your gateway for authorization..
+For this release, you must have a public gateway accessible from the subnet that you select for PAG. This is needed for PAG to be able access the IBM IAM service from your gateway for authorization.
 {: note}
 
 - **COS instance and bucket** - An [instance of IBM Cloud Object Storage](http://cloud.ibm.com/catalog/services/cloud-object-storage) and bucket must be created to store your PAG session recordings. You will need to provide the COS instance and bucket name during PAG provisioning.
