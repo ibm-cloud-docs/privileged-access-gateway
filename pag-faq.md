@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-09-12"
+lastupdated: "2022-10-07"
 
 
 keywords: faqs, help, vpc, error messages, region, location, virtual servers, kubernetes, ssh, provisioning, high availability, PAG faqs
@@ -36,6 +36,8 @@ You may not have the Virtual Servers that are properly prepared to be used with 
 
 Ensure that the user has the `kubernetes-user` IAM role for PAG. In addition, the user needs IAM permission to the Kubernetes cluster itself.
 
+Also, and for this release, you must have a public gateway accessible from the subnet that you select for PAG in order for PAG to be able to authorize you have access.
+
 ## Why are some of my VPCs not selectable for use with PAG in the provisioning UI?
 {: #pag-faqs-vpc-not-selectable}
 
@@ -50,3 +52,10 @@ Currently, a gateway is allowed in only one zone. Multiple gateways in different
 {: #pag-faqs-provisioning-failed}
 
 In the case of a provisioning failure, delete the failed instance from the resource list and try to provision the PAG service again.
+
+##  Why am I not able to successfully connect to PAG with `ibmcloud pag login`?
+{: #pag-faqs-login-failed}
+
+First, check to make sure you have the correct IAM permissions to access PAG.
+
+Also, and for this release, you must have a public gateway accessible from the subnet that you select for PAG in order for PAG to be able to authorize you have access.
