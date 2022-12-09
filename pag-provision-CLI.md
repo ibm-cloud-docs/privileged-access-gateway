@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-09-06"
+lastupdated: "2022-12-09"
 
 keywords: PAG UI, UI, CLI
 
@@ -14,7 +14,7 @@ subcollection: privileged-access-gateway
 
 <!-- Removed this topic from Experimental release. 08032022 PW -->
 
-# Provisioning PAG using IBM Cloud CLI
+# Provisioning {{site.data.keyword.pag_full}} using IBM Cloud CLI
 {: #pag-provisioning-cli}
 
 For first-time users of ibmcloud CLI, reference this link : [Getting started with the IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started)
@@ -27,7 +27,7 @@ $ ibmcloud login --sso -a test.cloud.ibm.com -r us-south -c e7f84207f02a40178438
 ```
 This will log in and set the designated account as well as the us-south region and Default resource group.
 
-## Step 2. Creating the PAG service
+## Step 2. Creating the {{site.data.keyword.pag_short}} service
 {: #pag-provisioning-cli-create-pag-service}
 
 ```sh

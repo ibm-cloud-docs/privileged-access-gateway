@@ -18,7 +18,7 @@ toc:
       id: learn
       topics:
       - topicgroup:
-          label: Getting started with Privileged Access Gateway (PAG)
+          label: Getting started with Privileged Access Gateway
           topics:
           - pag-overview.md
           - pag-features.md
@@ -33,6 +33,7 @@ toc:
           - pag-install-pag-CLI.md
           - pag-using-pag-ssh.md
           - pag-login-kubernetes-CLI.md
+          - pag-cli-commands.md
       - topicgroup:
           label: Security planning
           topics:
@@ -48,4 +49,3 @@ toc:
            topics:
            - pag-troubleshooting.md
            - pag-faq.md
-

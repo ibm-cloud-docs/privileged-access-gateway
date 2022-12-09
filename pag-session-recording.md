@@ -15,13 +15,13 @@ subcollection: privileged-access-gateway
 # PAG session recording playback​
 {: #pag-session-recording-playback}
 
-- The session recordings from both SSH and Kubernetes sessions are stored in the COS bucket that you specified on the provisioning form when creating your {{site.data.keyword.pag_full}} (PAG) instance​
+- The session recordings from both SSH and Kubernetes sessions are stored in the COS bucket that you specified on the provisioning form when creating your {{site.data.keyword.pag_full}} instance​
 - The customer session auditor must have IAM access to the {{site.data.keyword.cos_full}} (COS) bucket, and will download the recording(s) from the COS bucket to their local machine
 - ​Download the recording file from the COS bucket to a local machine
 - There is one file in the COS bucket per SSH or Kubernetes session​
-- A session file can then be played back on the customers local machine using the PAG CLI as follows:​ `ibmcloud pag play-recording \<path-to-session-file>` ​
+- A session file can then be played back on the customers local machine using the {{site.data.keyword.pag_short}} CLI as follows:​ `ibmcloud pag play-recording \<path-to-session-file>` ​
 
-1. The session recordings are stored within the COS bucket that was referred to while provisioning the PAG instance.
+1. The session recordings are stored within the COS bucket that was referred to while provisioning the {{site.data.keyword.pag_short}} instance.
 2. The recordings file name would look something like
 
    ```sh
